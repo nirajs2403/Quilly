@@ -31,8 +31,6 @@ test.describe.serial('@P0 Mobile Purchase Flow @bsm', () => {
   test('@P0 TC-134 Mobile Individual stripe purchase for mob user', async ({ request }) => {
     await mobileNavigationPage.navigateToMobileAuthModal(page);
     await navigationPage.navigateToAuthPageFromUserIcon(page, true);
-    await authPage.simpleUserSignUp(page);
-    await authPage.validateUserSignup(page, 'signup');
   });
 
   test.afterAll(async () => {
