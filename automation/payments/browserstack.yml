@@ -1,0 +1,13 @@
+userName: nirajsoni_HF5WJN
+accessKey: J6UxEg9Zhpguz85QZ6yX
+buildName: browserstack-run
+buildIdentifier: ${BUILD_NUMBER}
+platforms:
+  - deviceName: Galaxy S22
+    osVersion: 12
+    browserName: Chromium
+    deviceOrientation: portrait
+parallelsPerPlatform: 5
+debug: false
+networkLogs: false
+consoleLogs: errors

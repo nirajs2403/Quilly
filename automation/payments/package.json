@@ -1,0 +1,31 @@
+{
+  "name": "playwright-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/quillbot/product/quality-assurance-group/ui-automation/playwright-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/quillbot/product/quality-assurance-group/ui-automation/playwright-core/issues"
+  },
+  "homepage": "https://gitlab.com/quillbot/product/quality-assurance-group/ui-automation/playwright-core#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^20.14.5",
+    "browserstack-node-sdk": "^1.34.15",
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "@types/mongodb": "^4.0.7",
+    "dd-trace": "^5.21.0",
+    "dotenv": "^16.4.1",
+    "mongodb": "^6.8.0",
+    "playwright": "^1.50.1"
+  }
+}
